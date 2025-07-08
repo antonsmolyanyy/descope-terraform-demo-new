@@ -3,7 +3,7 @@ provider "descope" {
   management_key = var.management_key
 }
 resource "descope_project" "my_project" {
-  name = "Terraform Demo - PROD"
+  name = "Terraform Demo - Production"
   environment = "production"
   flows = {
     "sign-up-or-in" = {
